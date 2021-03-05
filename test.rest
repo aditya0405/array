@@ -1,0 +1,50 @@
+###
+GET http://localhost:3000/card_data
+Content-Type: application/json
+//membaca
+
+//update/add
+###
+POST http://localhost:3000/card_data
+Content-Type: application/json
+
+{
+    "title" : "contoh masukin data",
+    "body" : "ini contoh body daru rest test",
+    "img" : "https://picsum.photos/seed/13/300"
+
+}
+
+//delete
+###
+DELETE http://localhost:3000/card_data/8
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/card_data/1
+Content-Type: application/json
+
+{
+    "title" : "ini sudah di ubah",
+    "body" : "ini body yang di ubah",
+    "img" :"https://picsum.photos/seed/13/300"
+}
+
+# ###
+# PATCH http://localhost:3000/card_data/1
+# Content-Type: application/json
+
+# {
+#     "title" : "title ini diubah dengan patch",
+#     "body" : "saya ubah dengan patch"
+# }
+
+# klo single collection tanpa penutup array[] , dan menggunakan id di localhostnya
+###
+PATCH http://localhost:3000/barang
+Content-Type: application/json
+
+{
+    "qty": 120223,
+    "title" : "coba masukin"
+}

@@ -1,0 +1,59 @@
+{
+    "card_data": [
+        {
+            "title": "ini sudah di ubah",
+            "body": "ini body yang di ubah",
+            "img": "https://picsum.photos/seed/13/300",
+            "id": 1
+        },
+        {
+            "id": 2,
+            "title": "ini adalah title 2",
+            "body": "ini adalah body 2",
+            "img": "https://picsum.photos/id/17/300"
+        },
+        {
+            "id": 3,
+            "title": "ini adalah title 3",
+            "body": "ini adalah body 3",
+            "img": "https://picsum.photos/id/19/300"
+        },
+        {
+            "id": 4,
+            "title": "ini adalah title 4",
+            "body": "ini adalah body 4",
+            "img": "https://picsum.photos/id/12/300"
+        },
+        {
+            "id": 5,
+            "title": "ini adalah title 5",
+            "body": "ini adalah body 5",
+            "img": "https://picsum.photos/id/11/300"
+        },
+        {
+            "id": 6,
+            "title": "ini adalah title 6",
+            "body": "ini adalah body 6",
+            "img": "https://picsum.photos/id/10/300"
+        },
+        {
+            "title": "contoh masukin data",
+            "body": "ini contoh body daru rest test",
+            "img": "https://picsum.photos/seed/13/300",
+            "id": 7
+        },
+        {
+            "title": "contoh masukin data",
+            "body": "ini contoh body daru rest test",
+            "img": "https://picsum.photos/seed/13/300",
+            "id": 8
+        }
+    ],
+    "barang": [
+        {
+            "id": 1,
+            "qty": 120223,
+            "title": "coba masukin"
+        }
+    ]
+}
